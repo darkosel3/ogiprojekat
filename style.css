@@ -60,16 +60,16 @@ ul {
     color: white;
 }
 .header-item h1{
-    font-size: 72px;
+    font-size: 62px;
     margin-right: 0%;
 }
 .header-item h2{
-    font-size: 42px;
+    font-size: 38px;
     margin-top: 0%;
     margin-right: 0%;
 }
 .header-item p{
-    font-size: 2em;
+    font-size: 1.6em;
     margin-top: 0%;
     margin-right: 0%;
 }
@@ -98,24 +98,7 @@ ul {
         color: #E8CCAE;
       }
 
-#main {
-    font-size: 32px;
-    line-height: 1.2;
-}
-.sekcija{
-    font-size: 34px;
-}
-.sekcijadva {
-    line-height: 1.5;
-}
-.sekcijatri {
-    font-size:  64px;
-    text-align: center;
-}
-#footer {
-    font-size: 12px;
-    text-align: left;
-}
+
 .header-grid{
     display: flex;
     align-items: center;
@@ -134,7 +117,7 @@ ul {
   color:#E8CCAE;
   background-color: transparent;
   border: 2px solid #E8CCAE;
-  padding: 16px 30px !important;
+  padding: 16px 25px !important;
   border-radius: 30px;
   text-decoration: none;
 }
@@ -142,7 +125,7 @@ ul {
   background-color: #E8CCAE;
   color: #21519F;
   border: 1px solid #E8CCAE;
-  padding: 16px 30px !important;
+  padding: 16px 25px !important;
   border-radius: 30px;
   text-decoration: none;
 }
@@ -151,8 +134,8 @@ ul {
     display: flex;
     justify-content: space-between;
     font-size: 30px;
-    width: 30vw;
-    padding-left: 5em;
+    width: 40vw;
+    padding-left: 2em;
     padding-bottom: 3em;
 }
 .header-img{
@@ -162,40 +145,116 @@ ul {
 .sekcija{
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to right, #0C1D39 20%, #21519F);
+    padding-bottom: 4em;
 }
 .sekcija-cards{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
 }
 .sekcija-item{
     display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    border: 1px solid red;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 10vw;
+    /* border: 1px solid red; */
 }
+
+
+.sekcija-item p{
+    margin: 0;
+}
+.sekcija-item h3{
+    margin: 0;
+}
+
 .sekcija-grid {
     display: flex;
-    width: 20vw;
-    height: 13vh;
+    width: 16vw;
+    height: 10vh;
     padding-left: 10px;
+    margin-top: 20px;
     justify-content: space-around;
     border-radius: 10px;
     align-items: center;
     color: #0A1A33;
     background-color: #E8CCAE;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     text-align: center;
     
 }
-.sekcija-item img{
+.sekcija-slika{
     display: flex;
     justify-self: flex-end;
-    height: 35px;
+    height: 30px;
     background-color: white;
     padding: 10px;
     border-radius: 20px;
     /* border: 1px solid yellow; */
+}
+
+.tekst-iznad-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tekst-iznad-cards p{
+    width: 80vw;
+}
+.tekst-iznad-cards h2{
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.sekcijadva{
+    display: flex;
+    flex-direction: column;
+}
+.sekcijadva h1{
+    color:#0A1A33;
+    text-align: center;
+    font-family: roboto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.sekcijadva{
+    color:#0A1A33
+}
+.sekcijadva-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 25vh;
+}
+.sekcijadva-grid{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    width: 80vw;
+    height: 40vh;
+}
+.sekcijadva-content{
+    display: flex;
+    justify-content: center;
+}
+.sekcijadva{
+    background-color: #E8CCAE;
+    padding-bottom: 5em;
+}
+.dugme-sekcija-dva{
+    position: absolute;
+    right: 49%;
+    padding: 15px 30px;
+    background-color: #0A1A33;
+    border-radius: 12px;
+    color: #E8CCAE;
+    box-shadow: 5px 3px 3px #0C1D39;
+
 }
